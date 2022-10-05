@@ -1,0 +1,28 @@
+{
+  "name": "streambond",
+  "version": "0.0.1",
+  "description": "streams for backends",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "buildwit": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannharleen/streambond.git"
+  },
+  "keywords": [
+    "streambond",
+    "stream"
+  ],
+  "author": "harleen mann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mannharleen/streambond/issues"
+  },
+  "homepage": "https://github.com/mannharleen/streambond#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.183.0",
+    "@types/node": "^18.8.2"
+  }
+}
